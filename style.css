@@ -5,11 +5,20 @@
 .header_title{
     display: flex;
     margin: 0 auto;
+    font-family: Roboto, Helvetica, sans-serif;
     font-style: italic;
+
+    text-align: right;
+    justify-content: center;
 }
 
 .yellow_description{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
     font-style: italic;
+    color: #ffc20e;
 }
 
 .slippers_row1st{
@@ -20,4 +29,12 @@
 
 img{
     width: 70%;
+}
+
+ul.slippers_row2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: auto;
 }
