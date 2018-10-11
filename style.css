@@ -1,0 +1,23 @@
+.wrapper{
+    width: 100%;
+}
+
+.header_title{
+    display: flex;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.yellow_description{
+    font-style: italic;
+}
+
+.slippers_row1st{
+    display: flex;
+    flex-direction: row;
+    width: 90%; 
+}
+
+img{
+    width: 70%;
+}
